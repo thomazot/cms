@@ -31,7 +31,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
         
         $view->doctype('XHTML1_STRICT');
         $view->headMeta()->appendHttpEquiv('Content-Type', 'text/html; charset=UTF-8');
-        $view->headTitle('ZFModelo');
+        $view->headTitle('CMS');
         
         Zend_Registry::set('view', $view);
     }
